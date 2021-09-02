@@ -51,10 +51,10 @@ var chain = new MessageChainBuilder()
 #### 使用构造函数
 
 ```csharp
-var chain = new MessageChain(new MessageElement[] {new Plain("我是伞兵")});
+var chain = new MessageChain(new MessageElement[] { new Plain("我是伞兵") });
 ```
 
-#### 使用 MessageChain.Construct 方法
+#### 使用 `MessageChain.Construct` 方法
 
 ```csharp
 var chain = MessageChain.Construct(new Plain("你才是伞兵"));

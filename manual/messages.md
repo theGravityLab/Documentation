@@ -39,7 +39,7 @@ Json, Xml, App 通常不可用，就算可用，那也是用来把帐号搞进�
 
 有多种方法可以创造一个消息链：
 
-#### 使用 MessageChainBuilder
+#### 使用 `MessageChainBuilder`
 
 ```csharp
 var chain = new MessageChainBuilder()
